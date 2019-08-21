@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
     <link rel="stylesheet" href="main.css">
     <title>GreenCity</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <!-- Cabeçalho -->
+    <header>
+        <img src="assets/06-LOGO.png" alt="Logotipo">
+    </header>
+    <h1>Vem tomar um café com a gente</h1>
 
     <!-- Recomendamos que você não altere os IDs dos elementos do formulário -->
     <form id="contact" action="#">
-        <input type="text" id="name" placeholder="Nome">
-        <input type="text" id="email" placeholder="Endereço de email">
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        <input type="submit" value="Enviar">
+        <input class="item itemSize" type="text" id="name" placeholder="Nome">
+        <input class="item itemSize" type="email" id="email" placeholder="Endereço de email">
+        <textarea class="item" name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <input class="item itemSize" type="submit" value="Enviar">
     </form>
 
     <script src="main.js"></script>
 </body>
+
 </html>
