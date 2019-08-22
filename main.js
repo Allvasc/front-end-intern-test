@@ -20,23 +20,25 @@
 		// uma string. Toda string contém essa propriedade.
 		const nameLength = nameValue.length;
 
-        // Validação do campo NOME
+                // Validação do campo NOME
 		if (nameValue === "") {
 			window.alert("preencha o campo Nome");
 			nameInput.focus();
+
 		// Validação do campo EMAIL
 		} else if (emailInput.value === "") {
 			window.alert("preencha o campo Email");
 			emailInput.focus();
+
 		// Validação do campo MENSAGEM
 		} else if (messageInput.value === "") {
 			window.alert("preencha o campo Mensagem");
 			messageInput.focus();
+
+                //Mensagem de sucesso ao submeter o formulário.
 		} else {
 			window.alert(`${nameValue}, sua mensagem foi enviada com sucesso!`);
 		}
 
-		// Altere e complete essa função para validar os campos do formulário
-		// de acordo com as especificações do teste. Boa sorte!
 	});
 })();
