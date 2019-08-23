@@ -73,12 +73,12 @@ input[type="submit"] {
 }
 
 .item ::placeholder{
-    font-size:18px;
+        font-size:18px;
 }
 
 #message {
-    font-size:18px;
-    font-family: 'Open Sans', sans-serif; 
+       font-size:18px;
+       font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -104,10 +104,10 @@ input[type="submit"] {
 		height: 30px;
 	}
 	input[type="submit"] {
-	    width:260px;
-	    height:40px;
+	        width:260px;
+	        height:40px;
 	}
 	#message {
-        height:200px;
+                height:200px;
     }
 }
