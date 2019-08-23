@@ -73,14 +73,14 @@ input[type="submit"] {
 }
 
 ::placeholder{
-    font-size:18px;
+        font-size:18px;
 }
 
 #message {
-    font-size:18px;
-    font-family: 'Open Sans', sans-serif;
-    padding:10px 0 0 10px;
-    height:150px;
+        font-size:18px;
+        font-family: 'Open Sans', sans-serif;
+        padding:10px 0 0 10px;
+        height:150px;
 }
 
 
