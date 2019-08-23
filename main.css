@@ -51,8 +51,9 @@ h1 {
 	margin-top: 20px;
 	border: none;
 	border-radius: 5px;
-	padding-left:10px;
+	padding:5px 0px 5px 10px;
 	font-size:18px;
+	font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -69,6 +70,15 @@ input[type="submit"] {
 	font-weight: bold;
 	font-size: 22px;
 	width:510px
+}
+
+.item ::placeholder{
+    font-size:18px;
+}
+
+#message {
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -93,7 +103,11 @@ input[type="submit"] {
 	.itemSize {
 		height: 30px;
 	}
-	input[type="submit"]{
+	input[type="submit"] {
 	    width:260px;
+	    height:40px;
 	}
+	#message {
+        height:200px;
+    }
 }
